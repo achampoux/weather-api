@@ -1,0 +1,39 @@
+html {background: black;}
+
+section.display {
+    color: white;
+}
+
+section.inputs {
+    text-align: center;
+    margin: 50px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+.containerInner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2.3rem;
+}
+
+section.display {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    align-items: center;
+}
+
+span#temperature {
+    font-size: 10rem;
+}
